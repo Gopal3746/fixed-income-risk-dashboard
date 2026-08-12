@@ -11,3 +11,5 @@ htmlcov/
 # Market data downloaded locally. Do not commit ICE/FRED raw history.
 data/raw/
 data/processed/
+
+*.egg-info/
