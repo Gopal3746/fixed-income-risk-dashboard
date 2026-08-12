@@ -1,0 +1,13 @@
+sector,benchmark_weight_pct,as_of,proxy,source_note
+Treasury,46.62,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure; benchmark is Bloomberg US Aggregate Bond Index"
+MBS Pass-Through,23.00,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Industrial,14.35,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Financial Institutions,7.92,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Utility,2.51,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+CMBS,1.40,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Sovereign,1.09,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Supranational,0.91,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Cash and/or Derivatives,0.70,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Local Authority,0.58,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+Agency,0.51,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"
+ABS,0.41,2026-08-10,iShares AGG,"iShares Core U.S. Aggregate Bond ETF sector exposure"

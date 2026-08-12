@@ -1,0 +1,11 @@
+position_id,security_name,asset_class,sector,rating,coupon_rate,maturity_date,face_value,frequency
+UST-2028,US Treasury 2028,Treasury,Treasury,AA,3.875,2028-08-15,1200000,2
+UST-2031,US Treasury 2031,Treasury,Treasury,AA,4.125,2031-08-15,1100000,2
+UST-2036,US Treasury 2036,Treasury,Treasury,AA,4.500,2036-08-15,850000,2
+IND-A-2030,Hypothetical Industrial A 2030,Corporate,Industrial,A,4.850,2030-06-15,700000,2
+IND-BBB-2034,Hypothetical Industrial BBB 2034,Corporate,Industrial,BBB,5.350,2034-09-15,600000,2
+FIN-AA-2029,Hypothetical Financial AA 2029,Corporate,Financial Institutions,AA,4.550,2029-11-15,650000,2
+FIN-A-2033,Hypothetical Financial A 2033,Corporate,Financial Institutions,A,5.000,2033-03-15,550000,2
+UTIL-A-2032,Hypothetical Utility A 2032,Corporate,Utility,A,4.900,2032-12-15,500000,2
+UTIL-BBB-2037,Hypothetical Utility BBB 2037,Corporate,Utility,BBB,5.650,2037-06-15,450000,2
+TECH-AA-2035,Hypothetical Technology AA 2035,Corporate,Industrial,AA,4.750,2035-01-15,500000,2
