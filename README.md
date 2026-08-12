@@ -4,6 +4,39 @@ A small fixed-income portfolio risk system built around **real public market inp
 
 > **Scope boundary:** the positions and notionals in `data/sample_portfolio.csv` are hypothetical. Treasury and FRED inputs are real market data. Bond-level yields and prices are model-implied from those inputs, not vendor marks or actual trade quotes.
 
+## Dashboard Preview
+
+### Portfolio Positioning
+
+![Portfolio positioning](docs/screenshots/01_portfolio_positioning.png)
+
+Portfolio-level market value, yield, effective duration, DV01, DTS, convexity, sector allocation, quality mix, and active weights versus the AGG benchmark proxy.
+
+### DTS & Sector Beta
+
+![DTS and sector beta](docs/screenshots/02_dts_sector_beta.png)
+
+Credit-risk budgeting by sector using spread duration, OAS, DTS contribution, and the rating-mix sector spread-beta proxy.
+
+### Key-Rate Duration
+
+![Key-rate duration](docs/screenshots/03a_key_rate_duration.png)
+
+2Y, 5Y, 10Y, and 30Y key-rate-duration contributions with portfolio-level curve shock estimates.
+
+### Curve Scenario P&L
+
+![Curve scenario P&L](docs/screenshots/03b_scenario_pnl.png)
+
+Estimated portfolio P&L under parallel, steepening, and flattening yield-curve scenarios.
+
+### Bond-Level Analytics
+
+![Bond-level analytics](docs/screenshots/04_bond_analytics.png)
+
+Security-level model yield, price, duration, convexity, DV01, spread duration, DTS, and key-rate sensitivities.
+
+
 ## What this demonstrates
 
 - Fixed-income cash-flow modeling: price/yield conversion, Macaulay duration, modified duration, effective duration, convexity and DV01.
