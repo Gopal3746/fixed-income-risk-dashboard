@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fixed-income-risk-dashboard"
+version = "0.1.0"
+description = "Hypothetical fixed-income portfolio risk dashboard powered by live Treasury and FRED market inputs."
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "plotly>=5.22",
+  "python-dotenv>=1.0",
+  "requests>=2.31",
+  "streamlit>=1.36",
+]
+
+[project.scripts]
+fixed-income-risk = "fixed_income_risk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

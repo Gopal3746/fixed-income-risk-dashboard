@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.streamlit/secrets.toml
+.DS_Store
+
+# Market data downloaded locally. Do not commit ICE/FRED raw history.
+data/raw/
+data/processed/
